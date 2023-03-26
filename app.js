@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
     res.send("App is working 👍");
 });
 
-app.listen(PORT, () =>{
+app.listen(PORT, () => {
     console.log(`App is running on port ${PORT}`);
 });
